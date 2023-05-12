@@ -10,18 +10,42 @@
 </head>
 <body>
     
-    <div class="player">
+    <!-- <div class="player">
         <img src="./imgs/cissors.png" alt="">
-    </div>
+    </div> -->
     <div class="controlBord" >
         <p>Choose one between the suggestions :</p>
-        <button id="rock" >Rock</button><br>
-        <button id="paper">Paper</button><br>
-        <button id="cissors" >cissors</button>
+        <button class='game'id="rock" >Rock</button><br>
+        <button class='game'id="paper">Paper</button><br>
+        <button class='game'id="scissor" >Scissor</button>
+        <div class="scor">
+            <p>the score is:</p>
+            <p  class="player-score">0</p>
+            <p class="pc-score">0</p>
+        </div>
     </div>
-    <div class="thePC">
-        <img src="./imgs/rock.png" alt="">
+<div class="flip-card" id="Player-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+        <img src="./imgs/rrrrrrrrrrrrrrrr111111.jpg" alt="">  
+      </div>
+    <div class="flip-card-back">
+      <img id="player" src="" alt="">
     </div>
+  </div>
+</div>
+
+<div class="flip-card" id="pc-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+        <img src="./imgs/rrrrrrrrrrrrrrrr22.jpg" alt="">
+      
+    </div>
+    <div class="flip-card-back">
+      <img id="pc" src=""  alt="">
+    </div>
+  </div>
+</div>
     <script src="./Rock.js"></script>
 </body>
 </html>
